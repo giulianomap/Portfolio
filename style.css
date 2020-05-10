@@ -37,4 +37,8 @@
                 font-size: 25px
             }
 
+            .picture {
+                border-radius: 80%;
+            }
+
 </style>
