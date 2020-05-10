@@ -5,11 +5,16 @@
                 font-size: 35px;
                 font-family: Montserrat, sans-serif
             }
+
+            #container {
+                width: 1000px;
+                margin: auto;
+            }
             
-            body {
+            body {               
                font-size: 20px;
                font-family: Arial, sans-serif;
-               color: #5c6b73
+               color: #5c6b73                                            
             }
             
             h3 {
@@ -23,22 +28,26 @@
             #subtitle {
                 font-size: 15px;
                 margin: 0;
-            }
+            }            
             
-            .small-font {
-                font-size: 12px;
-            }
-            
-            .medium-font {
-                font-size: 18px;
-            }
-            
-            .big-font {
-                font-size: 25px
+            #picture {
+                position: absolute;
+                top: 250px;
+                left: 100px;                            
             }
 
-            .picture {
-                border-radius: 80%;
+            #descrip {
+                width: 60%;
+                float: right;
+                position: absolute;
+                top: 250px;
+                left: 400px;
             }
+
+            header {
+                
+            }
+
+
 
 </style>
