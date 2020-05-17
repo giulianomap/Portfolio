@@ -1,40 +1,106 @@
-<style>
 
-            #main-title {
-                color: #e0edee;
-                font-size: 35px;
-                font-family: Montserrat, sans-serif
-            }
-            
-            body {
-               font-size: 20px;
-               font-family: Arial, sans-serif;
-               color: #5c6b73
-            }
-            
-            h3 {
-                color: #253237
-            }
-            
-            body {
-                background-color: #e0edee
-            }
+#container {
+    margin: auto;                
+    border: 1px solid #253237;
+}
 
-            #subtitle {
-                font-size: 15px;
-                margin: 0;
-            }
-            
-            .small-font {
-                font-size: 12px;
-            }
-            
-            .medium-font {
-                font-size: 18px;
-            }
-            
-            .big-font {
-                font-size: 25px
-            }
+.descricao {
+    background-color: #f6f7f8;
+    color: #eb5e28;                
+    padding: 100px 100px;
+}
 
-</style>
+.nav {
+    padding: 20px;
+    background-color: #ccc5b9;
+    color: #252422;
+    margin-block-start: 0;
+}
+
+#info {
+    float: right;
+    position: relative;
+    right: 300px;
+}
+
+#main-title {
+    padding: 20px;
+    text-align: center;
+    background-color: #252422;
+    color: #fffcf2;
+    font-size: 45px;
+    font-family: Montserrat, sans-serif                    
+}            
+
+body {               
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #252422;
+    color: #eef4ed;                                                            
+}                      
+
+#picture {                                
+    text-align: center;                
+    position: relative;                                
+}
+
+#fotocircular {
+    border-radius: 50%;
+}
+
+#descrip {
+    margin-top: -10px;                                
+    float: right;
+    position: relative;                
+    right: 300px;
+    margin-bottom: 50px;    
+}
+
+p.margin {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.habilidades {
+    padding: 20px;
+    text-align: center;
+    background-color: #eb5e28;
+    color: #eef4ed;
+}
+
+.blogs {
+    padding: 20px;
+    text-align: center;
+    background-color: #f6f7f8;
+    color: #252422;
+}
+
+.saibamais {
+    padding: 20px;
+    text-align: center;
+    background-color: #403d39;
+    color: #eef4ed;
+}
+
+a:link {
+    color: #252422;
+    text-decoration: underline;
+    }
+
+a:hover {
+    background-color: #eef4ed;    
+}
+
+a:visited {
+    color: #eb5e28;
+    text-decoration: underline;
+}
+
+
+
+
+
